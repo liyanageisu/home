@@ -5,14 +5,14 @@
 }
 
 .container {
-    max-width: 1100px;
-    margin: auto;
+    max-width:1100px;
+    margin-right: 10px;
     overflow: auto;
-    padding: 0 2em;
+    
 }
 
 .main-header {
-    height: 55vh;
+    height: 15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,54 +21,56 @@
     padding: 2rem;
 }
 
-.main-header h1 {
-    font-size: 4rem;
-    margin-bottom: 2rem;
-    line-height: 1.2;
-
-}
-
-.main-header h1 span {
-    color: rgb(80, 25, 25);
-}
-.main-header p {
-    font-size: 2rem;
-
-}
-.main-header img {
-    height: 250px;
-    width: auto;
-}
-
-img {
-    width: 100%;
-}
 
 .card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display:block;
+    grid-template-columns: repeat(2, 1fr); 
     grid-gap: 2rem;
-    background:#708090	;
-    margin-bottom: 2rem;
+    background-color:#f0ce1099;
+    margin-bottom: 0.3rem;
+    color: black;
+
 }
 
 .card h3 {
-    margin-bottom: 2rem;
+   flex: 2;
+   text-align: justify;
+   margin-bottom: 30px;
+
+}
+.card h2 {
+    text-align: center;
 }
 
-.card img {
-    height: 400px ;
+img.img1 {
+    float: left;
+    margin-left: 15px;
+    height: 250px;
+    width: 150px;
+}
+
+img.img2 {
+    width: 300px;
+    height: 300px;
+    margin-top: unset;
+    margin-bottom: 80px;
+    margin-right: 0px;
 }
 
 .card > div {
-    padding: 2rem;
+    padding: 1rem;
 }
 
-.card:nth-child(even) img {
-    order: 2;
+
+div.para img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+    height: 100px;
 }
 
-@media(max-width: 600px){
+@media(max-width: 100px){
     .card {
         display: block;
     }

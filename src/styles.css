@@ -1,5 +1,5 @@
 body {
-    font-family: 'Oswald' sans-serif;
+   
     font-size: 1.3em;
-    background: rgb(44, 43, 43)	;
+    background-image: url(../src/assets/bg-2.jpg);
 }
