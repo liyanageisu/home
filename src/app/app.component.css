@@ -27,7 +27,8 @@
     grid-template-columns: repeat(2, 1fr); 
     grid-gap: 2rem;
     background-color:#f0ce1099;
-    margin-bottom: 0.3rem;
+    margin-bottom: 5rem;
+    max-height: 375px;
     color: black;
 
 }
@@ -52,9 +53,7 @@ img.img1 {
 img.img2 {
     width: 300px;
     height: 300px;
-    margin-top: unset;
-    margin-bottom: 80px;
-    margin-right: 0px;
+   
 }
 
 .card > div {
